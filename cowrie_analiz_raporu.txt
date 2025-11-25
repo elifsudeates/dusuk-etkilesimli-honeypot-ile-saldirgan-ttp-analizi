@@ -1,0 +1,196 @@
+================================================================================
+COWRIE HONEYPOT ANALİZ RAPORU
+Ağ Güvenliği ve Analizi Dersi
+================================================================================
+
+1. GENEL İSTATİSTİKLER
+--------------------------------------------------------------------------------
+Toplam Event Sayısı: 494,741
+Benzersiz IP Adresi: 5,018
+Toplam Oturum: 78,337
+Toplam Login Denemesi: 69,734
+Başarılı Login: 25,247
+Başarısız Login: 44,487
+Başarı Oranı: 36.20%
+
+2. EN ÇOK KULLANILAN KULLANICI ADLARI (Top 20)
+--------------------------------------------------------------------------------
+ 1. root                           : 25,832 deneme
+ 2. 345gs5662d34                   : 8,164 deneme
+ 3. admin                          : 2,340 deneme
+ 4. user                           : 1,516 deneme
+ 5. test                           : 711 deneme
+ 6. ubuntu                         : 655 deneme
+ 7. oracle                         : 472 deneme
+ 8. support                        : 436 deneme
+ 9. postgres                       : 379 deneme
+10. guest                          : 375 deneme
+11. centos                         : 356 deneme
+12. ftpuser                        : 344 deneme
+13. debian                         : 329 deneme
+14. ubnt                           : 293 deneme
+15. git                            : 290 deneme
+16. nobody                         : 247 deneme
+17. config                         : 239 deneme
+18. dev                            : 237 deneme
+19. default                        : 236 deneme
+20. mysql                          : 234 deneme
+
+3. EN ÇOK KULLANILAN ŞİFRELER (Top 20)
+--------------------------------------------------------------------------------
+ 1. 345gs5662d34                   : 8,164 deneme
+ 2. 3245gs5662d34                  : 8,106 deneme
+ 3. 123456                         : 4,273 deneme
+ 4. admin                          : 1,674 deneme
+ 5. 123                            : 1,524 deneme
+ 6. Ctyun@2025                     : 747 deneme
+ 7. password                       : 699 deneme
+ 8. 1234                           : 529 deneme
+ 9. unknown                        : 524 deneme
+10. nPSpP4PBW0                     : 473 deneme
+11. 1                              : 415 deneme
+12. 12345678                       : 364 deneme
+13. 12345                          : 254 deneme
+14. 111111                         : 230 deneme
+15. Aa112233                       : 227 deneme
+16. Aa112211                       : 224 deneme
+17. 123456789                      : 218 deneme
+18. Pi123321                       : 207 deneme
+19. abc123                         : 206 deneme
+20. P@ssw0rd                       : 205 deneme
+
+4. EN ÇOK KULLANILAN KİMLİK BİLGİLERİ (Top 20)
+--------------------------------------------------------------------------------
+ 1. 345gs5662d34:345gs5662d34                          : 8,164 deneme
+ 2. root:3245gs5662d34                                 : 8,104 deneme
+ 3. root:admin                                         : 1,310 deneme
+ 4. root:Ctyun@2025                                    : 747 deneme
+ 5. root:nPSpP4PBW0                                    : 473 deneme
+ 6. root:unknown                                       : 408 deneme
+ 7. root:Aa112233                                      : 227 deneme
+ 8. root:Aa112211                                      : 224 deneme
+ 9. root:Pi123321                                      : 207 deneme
+10. root:password                                      : 197 deneme
+11. admin:admin                                        : 180 deneme
+12. admin:unknown                                      : 116 deneme
+13. root:root                                          : 107 deneme
+14. root:19951995                                      : 91 deneme
+15. root:Aa168168                                      : 90 deneme
+16. root:LeitboGi0ro                                   : 86 deneme
+17. root:Lt12345678                                    : 85 deneme
+18. user:user                                          : 76 deneme
+19. root:123456                                        : 74 deneme
+20. root:                                              : 70 deneme
+
+5. BAŞARILI LOGİN DENEMELERİ
+--------------------------------------------------------------------------------
+Username: root                 Password: Ctyun@2025           IP: 178.16.54.6
+Username: root                 Password: Ctyun@2025           IP: 179.43.133.154
+Username: root                 Password: Root123@             IP: 125.88.225.11
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: Ctyun@2025           IP: 77.83.207.82
+Username: root                 Password:                      IP: 68.183.102.75
+Username: root                 Password: Ctyun@2025           IP: 178.16.54.6
+Username: root                 Password: Support2024!         IP: 14.103.115.181
+Username: root                 Password: 3245gs5662d34        IP: 14.103.115.181
+Username: root                 Password: sipwise              IP: 45.78.205.26
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: Ft112233             IP: 112.175.125.117
+Username: root                 Password: 3245gs5662d34        IP: 112.175.125.117
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: 54321                IP: 45.78.205.26
+Username: root                 Password: !@34QWer             IP: 112.175.125.117
+Username: root                 Password: 3245gs5662d34        IP: 112.175.125.117
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: P@55w0rd!            IP: 185.156.73.233
+Username: root                 Password: Gfhjkm12             IP: 45.78.205.26
+Username: root                 Password: 3245gs5662d34        IP: 45.78.205.26
+Username: root                 Password: Dc123456             IP: 112.175.125.117
+Username: root                 Password: 3245gs5662d34        IP: 112.175.125.117
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: Ctyun@2025           IP: 77.83.207.82
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: 44                   IP: 218.200.200.92
+Username: root                 Password: Admin-12345          IP: 112.175.125.117
+Username: root                 Password: 44                   IP: 118.91.162.146
+Username: root                 Password: 3245gs5662d34        IP: 112.175.125.117
+Username: root                 Password: admin@123            IP: 45.78.205.26
+Username: root                 Password: Ctyun@2025           IP: 179.43.133.154
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: q123456789q          IP: 45.78.193.86
+Username: root                 Password: 44                   IP: 5.26.215.151
+Username: root                 Password: Welcome123           IP: 14.29.206.99
+Username: root                 Password: 3245gs5662d34        IP: 45.78.193.86
+Username: root                 Password: 3245gs5662d34        IP: 14.29.206.99
+Username: root                 Password: admin                IP: 91.215.85.88
+Username: root                 Password: vivian               IP: 45.78.218.105
+Username: root                 Password: 3245gs5662d34        IP: 45.78.218.105
+Username: root                 Password: Ctyun@2025           IP: 178.16.54.6
+Username: root                 Password: root2                IP: 102.218.89.110
+Username: root                 Password: 3245gs5662d34        IP: 102.218.89.110
+Username: root                 Password: ROOTROOT             IP: 112.175.125.117
+Username: root                 Password: 3245gs5662d34        IP: 112.175.125.117
+Username: root                 Password: 1999                 IP: 45.78.206.15
+Username: root                 Password: 3245gs5662d34        IP: 45.78.206.15
+
+6. EN AKTİF SALDIRGAN IP ADRESLERİ (Top 30)
+--------------------------------------------------------------------------------
+ 1. 77.237.241.232       : 58,935 aktivite
+ 2. 45.140.17.88         : 7,808 aktivite
+ 3. 91.215.85.88         : 4,284 aktivite
+ 4. 170.64.171.45        : 4,253 aktivite
+ 5. 178.16.54.6          : 4,026 aktivite
+ 6. 185.243.5.131        : 3,168 aktivite
+ 7. 196.251.84.225       : 3,131 aktivite
+ 8. 103.101.162.38       : 2,551 aktivite
+ 9. 2.57.121.112         : 2,410 aktivite
+10. 134.199.201.241      : 2,306 aktivite
+11. 129.212.185.88       : 2,306 aktivite
+12. 134.199.194.41       : 2,306 aktivite
+13. 129.212.182.142      : 2,306 aktivite
+14. 129.212.180.235      : 2,271 aktivite
+15. 77.83.207.83         : 1,988 aktivite
+16. 66.181.171.136       : 1,767 aktivite
+17. 77.83.207.82         : 1,738 aktivite
+18. 185.246.128.133      : 1,621 aktivite
+19. 62.60.131.157        : 1,620 aktivite
+20. 116.193.191.46       : 1,566 aktivite
+21. 193.105.134.95       : 1,464 aktivite
+22. 41.226.27.251        : 1,419 aktivite
+23. 43.165.186.119       : 1,419 aktivite
+24. 165.227.98.222       : 1,419 aktivite
+25. 164.92.243.206       : 1,419 aktivite
+26. 159.203.108.39       : 1,419 aktivite
+27. 142.93.188.35        : 1,419 aktivite
+28. 213.212.36.174       : 1,419 aktivite
+29. 41.94.88.219         : 1,406 aktivite
+30. 185.243.5.103        : 1,369 aktivite
+
+7. SSH CLIENT VERSİYONLARI (Top 20)
+--------------------------------------------------------------------------------
+ 1. SSH-2.0-libssh_0.11.1                              : 37,810
+ 2. SSH-2.0-Go                                         : 23,975
+ 3. SSH-2.0-OpenSSH_7.4                                : 4,699
+ 4. SSH-2.0-libssh2_1.11.1                             : 870
+ 5. SSH-2.0-libssh2_1.9.0                              : 599
+ 6. SSH-2.0-PuTTY_Release_0.80                         : 570
+ 7. SSH-2.0-paramiko_4.0.0                             : 392
+ 8. SSH-2.0-libssh_0.9.6                               : 319
+ 9. SSH-2.0-OpenSSH_10.0                               : 198
+10. SSH-2.0-AsyncSSH_2.1.0                             : 188
+11. SSH-2.0-paramiko_3.5.1                             : 180
+12. SSH-2.0-OpenSSH_8.4p1 Debian-5+deb11u3             : 161
+13. SSH-2.0-OpenSSH_8.9p19                             : 147
+14. SSH-2.0-libssh2_1.11.0                             : 103
+15. GET / HTTP/1.1                                     : 92
+16. SSH-2.0-OPENSSH_7.9                                : 88
+17. SSH-2.0-ZGrab ZGrab SSH Survey                     : 79
+18. SSH-2.0-libssh_0.7.4                               : 76
+19. SSH-2.0-libssh2_1.8.1                              : 73
+20. SSH-2.0-OpenSSH-keyscan                            : 55
+
+================================================================================
+Rapor Tarihi: 2025-11-22 20:45:31
+================================================================================

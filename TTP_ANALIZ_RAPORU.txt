@@ -1,0 +1,183 @@
+================================================================================
+HONEYPOT LOG ANALİZİ - TTP RAPORU
+Taktik, Teknik ve Prosedürler (TTP) Analizi
+================================================================================
+
+Rapor Tarihi: 2025-11-25 21:02:47
+Analiz Edilen Event Sayısı: 494,741
+Analiz Dönemi: Ekim-Kasım 2025
+
+================================================================================
+
+1. COĞRAFİ DAĞILIM ANALİZİ
+--------------------------------------------------------------------------------
+
+Toplam Benzersiz IP Adresi: 5,018
+Toplam Saldırı Aktivitesi: 494,741
+
+En Aktif Saldırgan IP Adresleri (Top 20):
+   1. 77.237.241.232       - 58,935 aktivite
+   2. 45.140.17.88         - 7,808 aktivite
+   3. 91.215.85.88         - 4,284 aktivite
+   4. 170.64.171.45        - 4,253 aktivite
+   5. 178.16.54.6          - 4,026 aktivite
+   6. 185.243.5.131        - 3,168 aktivite
+   7. 196.251.84.225       - 3,131 aktivite
+   8. 103.101.162.38       - 2,551 aktivite
+   9. 2.57.121.112         - 2,410 aktivite
+  10. 134.199.201.241      - 2,306 aktivite
+  11. 129.212.185.88       - 2,306 aktivite
+  12. 134.199.194.41       - 2,306 aktivite
+  13. 129.212.182.142      - 2,306 aktivite
+  14. 129.212.180.235      - 2,271 aktivite
+  15. 77.83.207.83         - 1,988 aktivite
+  16. 66.181.171.136       - 1,767 aktivite
+  17. 77.83.207.82         - 1,738 aktivite
+  18. 185.246.128.133      - 1,621 aktivite
+  19. 62.60.131.157        - 1,620 aktivite
+  20. 116.193.191.46       - 1,566 aktivite
+
+
+2. GİRİŞ DENEMELERİ ANALİZİ
+--------------------------------------------------------------------------------
+
+Toplam Login Denemesi: 69,734
+Başarılı Login: 25,247 (36.20%)
+Başarısız Login: 44,487 (63.80%)
+
+En Çok Denenen Kullanıcı Adları (Top 15):
+   1. root                           - 25,832 deneme
+   2. 345gs5662d34                   - 8,164 deneme
+   3. admin                          - 2,340 deneme
+   4. user                           - 1,516 deneme
+   5. test                           - 711 deneme
+   6. ubuntu                         - 655 deneme
+   7. oracle                         - 472 deneme
+   8. support                        - 436 deneme
+   9. postgres                       - 379 deneme
+  10. guest                          - 375 deneme
+  11. centos                         - 356 deneme
+  12. ftpuser                        - 344 deneme
+  13. debian                         - 329 deneme
+  14. ubnt                           - 293 deneme
+  15. git                            - 290 deneme
+
+En Çok Denenen Şifreler (Top 15):
+   1. 345gs5662d34                   - 8,164 deneme
+   2. 3245gs5662d34                  - 8,106 deneme
+   3. 123456                         - 4,273 deneme
+   4. admin                          - 1,674 deneme
+   5. 123                            - 1,524 deneme
+   6. Ctyun@2025                     - 747 deneme
+   7. password                       - 699 deneme
+   8. 1234                           - 529 deneme
+   9. (boş)                          - 524 deneme
+  10. nPSpP4PBW0                     - 473 deneme
+  11. 1                              - 415 deneme
+  12. 12345678                       - 364 deneme
+  13. 12345                          - 254 deneme
+  14. 111111                         - 230 deneme
+  15. Aa112233                       - 227 deneme
+
+
+3. ÇALIŞTIRILAN KOMUTLAR ANALİZİ
+--------------------------------------------------------------------------------
+
+Toplam Komut: 31,928
+Benzersiz Komut: 744
+
+En Çok Çalıştırılan Komutlar (Top 20):
+   1. [ 8790x] cd ~; chattr -ia .ssh; lockr -ia .ssh
+   2. [ 8702x] cd ~ && rm -rf .ssh && mkdir .ssh && echo "ssh-rsa AAAAB3NzaC1yc2EA...
+   3. [ 2555x] uname -a
+   4. [ 2214x] uname -s -v -n -r -m
+   5. [  647x] cat /proc/cpuinfo | grep name | wc -l
+   6. [  566x] rm -rf /tmp/secure.sh; rm -rf /tmp/auth.sh; pkill -9 secure.sh; pki...
+   7. [  556x] cat /proc/cpuinfo | grep name | head -n 1 | awk '{print $4,$5,$6,$7...
+   8. [  548x] free -m | grep Mem | awk '{print $2 ,$3, $4, $5, $6, $7}'
+   9. [  533x] ls -lh $(which ls)
+  10. [  533x] which ls
+  11. [  528x] cat /proc/cpuinfo | grep model | grep name | wc -l
+  12. [  527x] crontab -l
+  13. [  523x] w
+  14. [  523x] uname -m
+  15. [  523x] top
+  16. [  516x] uname
+  17. [  516x] whoami
+  18. [  513x] lscpu | grep Model
+  19. [  510x] df -h | head -n 2 | awk 'FNR == 2 {print $2;}'
+  20. [  192x] echo -e "\x6F\x6B"
+
+Komut Kategorileri:
+  • Yürütme (Execution)           : 18,933 komut
+  • Savunma Atlatma (Defense Evasion): 18,178 komut
+  • Kalıcılık (Persistence)       : 18,081 komut
+  • Keşif (Discovery)             : 11,835 komut
+  • İndirme (Download)            : 74 komut
+
+
+4. İNDİRİLEN DOSYALAR ANALİZİ
+--------------------------------------------------------------------------------
+
+Toplam İndirme Denemesi: 9,338
+Benzersiz URL: 4
+Şüpheli İçerik: 0
+
+Dosya Tipleri:
+  • Config/Data         : 8 dosya
+
+
+5. GÖZLEMLENEN TTP'LER (MITRE ATT&CK ÇERÇEVESİ)
+--------------------------------------------------------------------------------
+
+Yürütme (Execution)                               : 56,799 gözlem
+Savunma Atlatma (Defense Evasion)                 : 54,534 gözlem
+Kalıcılık (Persistence)                           : 54,243 gözlem
+Kimlik Bilgisi Erişimi (Credential Access)        : 50,494 gözlem
+Keşif/Bilgi Toplama (Discovery)                   : 35,505 gözlem
+Toplama (Collection)                              : 18,898 gözlem
+
+
+6. TEHDİT DEĞERLENDİRMESİ
+--------------------------------------------------------------------------------
+
+Tespit Edilen Tehdit Profilleri:
+
+• Kalıcı Saldırganlar (>10 oturum): 821 IP
+  → Sistematik ve organizeli saldırı göstergesi
+
+• Başarılı Sızma: 2,134 IP
+  → Zayıf kimlik bilgileriyle sisteme giriş yaptı
+
+• Komut Çalıştırma: 1,296 IP
+  → Sistem üzerinde aktif işlem gerçekleştirdi
+
+• Dosya İndirme: 1,108 IP
+  → Malware veya araç indirmeye çalıştı
+
+
+7. SONUÇ VE GÜVENLİK ÖNERİLERİ
+--------------------------------------------------------------------------------
+
+TESPIT EDİLEN TEMEL TEHDİTLER:
+  1. Yaygın brute-force saldırıları (kimlik bilgisi denemesi)
+  2. Otomatik bot ağları ile koordineli saldırılar
+  3. Başarılı girişlerde malware indirme girişimleri
+  4. Kalıcılık sağlama çabaları (SSH key, crontab)
+  5. Savunma mekanizmalarını atlama teknikleri
+
+ÖNERİLEN GÜVENLİK ÖNLEMLERİ:
+  ✓ SSH key-based authentication kullanımı (şifre girişini kapat)
+  ✓ Root kullanıcısıyla direkt login'i devre dışı bırak
+  ✓ Fail2ban veya benzeri IPS çözümleri implementasyonu
+  ✓ Güçlü şifre politikaları ve çok faktörlü kimlik doğrulama (MFA)
+  ✓ Port değiştirme veya port knocking kullanımı
+  ✓ Ağ segmentasyonu ve firewall kuralları
+  ✓ Düzenli güvenlik güncellemeleri ve yama yönetimi
+  ✓ Log monitoring ve SIEM entegrasyonu
+  ✓ Honeypot'lar ile erken uyarı sistemleri
+
+
+================================================================================
+RAPOR SONU
+================================================================================
