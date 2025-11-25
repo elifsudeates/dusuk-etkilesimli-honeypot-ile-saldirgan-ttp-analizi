@@ -100,6 +100,58 @@ Detaylı IP listesi analiz raporunda mevcuttur. Saldırılar dünya genelinden g
 
 ---
 
+## 📷 Grafikler ve Görseller
+
+### Genel Grafikler
+
+#### 1. Genel İstatistikler
+![Genel İstatistikler](graphs/01_genel_istatistikler.png)
+Bu grafik, saldırıların genel istatistiklerini görselleştirir.
+
+#### 2. Login Bilgileri
+![Login Bilgileri](graphs/02_login_credentials.png)
+En çok kullanılan kullanıcı adı ve şifrelerin dağılımını gösterir.
+
+#### 3. Login Başarı Oranları
+![Login Başarı Oranları](graphs/03_login_success_rate.png)
+Başarılı ve başarısız login denemelerinin oranlarını görselleştirir.
+
+#### 4. En Aktif Saldırgan IP'ler
+![En Aktif Saldırgan IP'ler](graphs/04_top_attacker_ips.png)
+En aktif saldırgan IP adreslerinin dağılımını gösterir.
+
+#### 5. SSH Client Versiyonları
+![SSH Client Versiyonları](graphs/05_ssh_clients.png)
+Saldırılarda kullanılan SSH client versiyonlarının dağılımını görselleştirir.
+
+#### 6. Zaman Bazlı Saldırı Patternleri
+![Zaman Bazlı Saldırı Patternleri](graphs/06_time_patterns.png)
+Saldırıların saatlik ve günlük dağılımını görselleştirir.
+
+#### 7. Event Türleri
+![Event Türleri](graphs/07_event_types.png)
+Saldırı loglarındaki event türlerinin dağılımını görselleştirir.
+
+### TTP Grafikler
+
+#### 1. Coğrafi Dağılım
+![Coğrafi Dağılım](ttp_graphs/ttp_01_cografi_dagilim.png)
+Saldırıların coğrafi dağılımını görselleştirir.
+
+#### 2. Taktik Dağılımı
+![Taktik Dağılımı](ttp_graphs/ttp_02_taktik_dagilimi.png)
+Saldırganların kullandığı taktiklerin dağılımını görselleştirir.
+
+#### 3. Komut Kategorileri
+![Komut Kategorileri](ttp_graphs/ttp_03_komut_kategorileri.png)
+Saldırılarda kullanılan komutların kategorilere göre dağılımını gösterir.
+
+#### 4. Zaman Çizelgesi
+![Zaman Çizelgesi](ttp_graphs/ttp_04_zaman_cizelgesi.png)
+Saldırıların zaman çizelgesini görselleştirir.
+
+---
+
 ## 🔐 Güvenlik Önerileri
 
 ### 1. Şifre Güvenliği
@@ -192,6 +244,11 @@ elif-cowrie/
 │   ├── 05_ssh_clients.png
 │   ├── 06_time_patterns.png
 │   └── 07_event_types.png
+├── ttp_graphs/                     # TTP grafikler
+│   ├── ttp_01_cografi_dagilim.png
+│   ├── ttp_02_taktik_dagilimi.png
+│   ├── ttp_03_komut_kategorileri.png
+│   └── ttp_04_zaman_cizelgesi.png
 ├── analyze_cowrie_logs.py           # Ana analiz scripti
 ├── requirements.txt                 # Python bağımlılıkları
 ├── cowrie_analiz_raporu.txt         # Detaylı metin raporu
@@ -231,67 +288,6 @@ python analyze_cowrie_logs.py
 - **Seviye:** Yüksek Lisans
 - **Konu:** Honeypot Log Analizi ve Siber Saldırı Patternleri
 - **Tarih:** Kasım 2025
-
----
-
-## 📊 Sunumda Kullanım Önerileri
-
-### Slayt Yapısı Önerisi
-
-1. **Giriş Slaytı**
-   - Honeypot nedir?
-   - Cowrie honeypot tanıtımı
-   - Proje amacı
-
-2. **Metodoloji**
-   - Veri toplama süreci
-   - Analiz araçları
-   - Zaman periyodu
-
-3. **Genel İstatistikler**
-   - Grafik: 01_genel_istatistikler.png
-   - Temel sayılar ve trendler
-
-4. **Saldırgan Profili**
-   - Grafik: 04_top_attacker_ips.png
-   - Coğrafi dağılım
-   - Saldırı yoğunluğu
-
-5. **Kullanılan Kimlik Bilgileri**
-   - Grafik: 02_login_credentials.png
-   - En popüler kombinasyonlar
-   - Password pattern analizi
-
-6. **Başarı Oranları**
-   - Grafik: 03_login_success_rate.png
-   - Başarılı/başarısız login oranları
-   - Honeypot'un çekiciliği
-
-7. **Saldırı Araçları**
-   - Grafik: 05_ssh_clients.png
-   - Kullanılan SSH client'lar
-   - Bot yazılımları
-
-8. **Zaman Patternleri**
-   - Grafik: 06_time_patterns.png
-   - Saatlik dağılım
-   - Günlük trendler
-   - 7/24 aktivite
-
-9. **Event Analizi**
-   - Grafik: 07_event_types.png
-   - Hangi aktiviteler gerçekleşti?
-   - Saldırı senaryoları
-
-10. **Güvenlik Önerileri**
-    - Bulgulardan çıkarılan dersler
-    - Pratik güvenlik önerileri
-    - Kurumsal savunma stratejileri
-
-11. **Sonuç**
-    - Özet bulgular
-    - Gelecek çalışmalar
-    - Sorular
 
 ---
 
