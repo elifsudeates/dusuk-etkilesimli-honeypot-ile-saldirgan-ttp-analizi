@@ -150,7 +150,16 @@ Saldırılarda kullanılan komutların kategorilere göre dağılımını göste
 ![Zaman Çizelgesi](ttp_graphs/ttp_04_zaman_cizelgesi.png)
 Saldırıların zaman çizelgesini görselleştirir.
 
----
+#### DÜNYA HARİTASI VE IP GÖRSELLEŞTİRME
+![DÜNYA HARİTASI VE IP GÖRSELLEŞTİRME](dunya_haritası/ısı_haritası.png)
+Isı Haritası, aktivite sayısı yüksek IP’ler daha parlak / daha yoğun görünüyor.
+
+![DÜNYA HARİTASI VE IP GÖRSELLEŞTİRME](dunya_haritası/isaretleyici_harita.png)
+İşaretleyici Harita , en aktif IP’lerin detaylarını tek tek görebildiğim marker tabanlı haritadır.
+
+![DÜNYA HARİTASI VE IP GÖRSELLEŞTİRME](dunya_haritası/kume_haritası.png)
+Küme Haritası, dünyanın neresinde saldırı yoğunluğu olduğunu kümeleme yaklaşımıyla gösteren haritadır.
+
 
 ## 🔐 Güvenlik Önerileri
 
